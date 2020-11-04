@@ -8,8 +8,11 @@ body{
 color: white; font-family: impact,charcoal,sans-serif;
 }
 a{
-  stylesheet color: #B8860B; opacity: 0.5; text-align: center;
+  stylesheet color: #B8860B; opacity: 0.5;
 }
-h4{
+h1{
   text-align: center;
+}
+h3, h2, h4 {
+  box-shadow: 3px 7px;
 }
