@@ -16,3 +16,6 @@ h1{
 h3, h2, h4 {
   box-shadow: 3px 7px;
 }
+footer{
+  background-color: darkgrey;
+}
