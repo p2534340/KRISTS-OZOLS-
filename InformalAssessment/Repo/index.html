@@ -13,10 +13,24 @@
 <a href="aboutme.html"> About Me </a>
 <a href="contactme.html" > Contact Me </a>
 </div>
+    
+ <!-- ***
+      You've started another <body> element here. Your page should just have a single
+      <body> element, containing everything that's on your page.
+      *** -->
 <body>
   <div>
 <h3>The man, The myth, The legend himself!</h3>
 <p>(Before we start press play)<p>
+    
+  <!-- ***
+       The second audio file here should actually be an version of the audio
+       file in ogg format. Both of these are mp3 files.
+    
+       You should also include a fallback for older browsers. That is, some paragraph text after both <source> elements
+       that will be displayed if the browser does not support the <audio> element. Typically, this might include a link
+       to download the mp3 version.
+       *** -->
   <audio controls loop>
     <source src="audio/clubtune.mp3" type="audio/mpeg">
       <source src="audio/clubtune.mp3" type="audio/ogg">
@@ -25,6 +39,10 @@
    red but we can get more into about me if you click
     <a href="aboutme.html">Here.</a>
 Anyway I'm the guy who made a website about himself lol!</p>
+    
+<!-- ***
+     It would be good if all your style rules were in the separate .css file.
+     *** -->
 <img src="img/smoakin.JPG" alt="Krists Ozols" style="max-width: 100%"/>
 </div>
 <div>
@@ -36,6 +54,16 @@ would like to start exploring Asia. I would love to live in different places
 for couple of years. I would start with California, Los Angeles (USA),
 after I would like to live back in my home country which is Latvia. Finally
 when I retire, I would Love to live in Barcelona(Spain). </p>
+  
+<!-- ***
+     You've got the poster attribute here, but you need to provide a value to tell the 
+     browser where the image is that you'd like to use for a poster. For example:
+
+     <video width="100%" autoplay poster="img/videoPoster.jpg">
+
+     As with the <audio> element, you also need to provide a fallback for browsers
+     that don't support the <video> element.
+     *** -->
 <video width="100%" autoplay poster controls>
   <source src="video/map.mp4" type="video/mp4">
     <source src="video/map.webm" type="video/webm">
