@@ -2,14 +2,16 @@ header{
 color: red;
 }
 #johnposter{
-  max-width: 100%
+  max-width: 50%; float: left; padding: 5px;
 }
-#float1{
-  width: 50%; padding: 5px; box-sizing: border-box; float: left;
+#s1::after{
+  content: "";
+  display: block;
+  clear: both;
 }
-#float2{
-  width: 50%; padding: 5px; box-sizing: border-box; float: right;
+video{
+  width: 320px; height: 240px;
 }
-p{
+#s2{
   
 }
