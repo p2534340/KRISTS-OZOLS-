@@ -1,8 +1,15 @@
 header{
 color: red;
 }
+#Buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 #johnposter{
-  max-width: 50%; float: left; padding: 5px;
+  max-width: 50%;
+   float: left;
+   padding: 5px;
 }
 #s1::after{
   content: "";
@@ -10,8 +17,16 @@ color: red;
   clear: both;
 }
 video{
-  width: 340px; height: 260px;
-}
-#s2{
+  max-width: 100%;
 
 }
+#s2{
+}
+
+footer{
+  width: 80%;
+  height: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  background-color:	#696969;
