@@ -1,11 +1,27 @@
 header{
-color: red;
+color: #d63031;
 }
-
+body{
+  background-image: url(../img/back.png);
+  color: white;
+  font-family: sans-serif;
+}
+ button{
+   border: solid #d63031;
+   font-size: 25px;
+   font-family: fantasy;
+   padding: 5px 30px;
+   cursor: pointer;
+   background: none;
+   transition: 0.8s;
+ }
 #Buttons{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+.b1:hover{
+  background-color: #d63031;
 }
 
 #johnposter{
@@ -18,11 +34,18 @@ color: red;
   float: left;
   padding: 5px;
 }
+a{
+  color: white;
 
+}
 #s1::after{
   content: "";
   display: block;
   clear: both;
+}
+#s1{
+  background-color: #333
+  
 }
 
 video{
@@ -46,8 +69,4 @@ footer{
 
 #footerp{
   padding: 4px;
-}
-
-audio{
-
 }
