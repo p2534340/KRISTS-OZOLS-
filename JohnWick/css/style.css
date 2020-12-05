@@ -1,32 +1,53 @@
 header{
 color: red;
 }
+
 #Buttons{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
+
 #johnposter{
   max-width: 50%;
    float: left;
    padding: 5px;
 }
+#castimg{
+  max-width: 25%;
+  float: left;
+  padding: 5px;
+}
+
 #s1::after{
   content: "";
   display: block;
   clear: both;
 }
+
 video{
   max-width: 100%;
-
-}
-#s2{
+  padding: 4px;
 }
 
 footer{
-  width: 80%;
-  height: 16px;
   display: flex;
-  flex-wrap: wrap;
-  margin: 0 auto;
-  background-color:	#696969;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color:	#343434;
+  color: white;
+}
+
+#f1{
+  display: flex;
+  flex-direction: column;
+  padding: 4px;
+}
+
+#footerp{
+  padding: 4px;
+}
+
+audio{
+
+}
