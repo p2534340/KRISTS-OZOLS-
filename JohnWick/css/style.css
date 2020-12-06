@@ -1,11 +1,14 @@
 header{
 color: #d63031;
 }
+
+
 body{
   background-image: url(../img/back.png);
   color: white;
   font-family: sans-serif;
 }
+
  button{
    border: solid #d63031;
    font-size: 25px;
@@ -15,11 +18,13 @@ body{
    background: none;
    transition: 0.8s;
  }
+
 #Buttons{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
+
 .b1:hover{
   background-color: #d63031;
 }
@@ -29,36 +34,48 @@ body{
    float: left;
    padding: 5px;
 }
+
 #castimg{
   max-width: 25%;
   float: left;
   padding: 5px;
 }
+
 a{
   color: white;
-
 }
+
 #s1::after{
   content: "";
   display: block;
   clear: both;
 }
+
 #s1{
-  background-color: #333
-  
+  background-color: #333;
+  border: 5px #d63031 solid;
+  margin-top: 10px;
+  padding:5px;
 }
 
-video{
+
+video {
   max-width: 100%;
   padding: 4px;
+}
+
+audio{
+  color: #343434;
 }
 
 footer{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color:	#343434;
   color: white;
+  border-top: 2px #d63031 solid;
+
 }
 
 #f1{
@@ -68,5 +85,4 @@ footer{
 }
 
 #footerp{
-  padding: 4px;
 }
