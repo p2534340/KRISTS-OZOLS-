@@ -1,7 +1,37 @@
-header{
-color: #d63031;
+
+/* I decided not to change original margin of the website so nothing touches the walls of the website. */
+
+#header{
+  width: 100%;
+  display: block;
+  height: 40px;
+  background-color: #d63031;
+  color: #d63031;
+  margin-bottom: 15px;
 }
 
+#innerheader{
+  width: 70%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+  background-color: #333;
+}
+
+}
+#logo{
+  height: 100%;
+
+}
+#logo h2{
+  height: 100%;
+  color: white;
+  font-family: fantasy;
+  text-align: center;
+  font-size: 21px;
+  font-weight: 300;
+  padding-top: 5px;
+}
 
 body{
   background-image: url(../img/back.png);
@@ -49,13 +79,15 @@ a{
   content: "";
   display: block;
   clear: both;
+
+
 }
 
 #s1{
   background-color: #333;
   border: 5px #d63031 solid;
   margin-top: 10px;
-  padding:5px;
+
 }
 
 
