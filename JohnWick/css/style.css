@@ -1,5 +1,6 @@
 
-/* I decided not to change original margin of the website so nothing touches the walls of the website. */
+/* I decided not to change the original margin of the website so nothing touches
+ the walls of the website .*/
 
 #header{
   width: 100%;
@@ -9,7 +10,10 @@
   color: #d63031;
   margin-bottom: 15px;
 }
-
+/*
+I didn't want the header to be too big therefore i had changed the height.
+I also matched the colours of the header to match the rest of the website.
+*/
 #innerheader{
   width: 70%;
   height: 100%;
@@ -17,12 +21,17 @@
   margin: 0 auto;
   background-color: #333;
 }
-
+/*
+I made an inner header so the actual header to make the header look more
+professional, I changed the colour of the header to "#333" so the white coloured
+header stands out more.
+}
+*/
 }
 #logo{
   height: 100%;
-
 }
+
 #logo h2{
   height: 100%;
   color: white;
@@ -33,12 +42,23 @@
   padding-top: 5px;
 }
 
+/*
+This is the actual header section. I had approached this differently by using
+"h2" instead of the "header" element due to the reason it didn't work out as
+planned. Originally I had planned to use the "header" attribute, therefore I had
+ to make a plan b and used the"h2" instead. I had also added some style, such as
+ changing the font and the weight.
+*/
+
 body{
   background-image: url(../img/back.png);
   color: white;
   font-family: sans-serif;
 }
-
+/*
+I decided to use carbon fiber as the background image. personally, I think it
+suits the style of the film.
+*/
  button{
    border: solid #d63031;
    font-size: 25px;
@@ -58,7 +78,11 @@ body{
 .b1:hover{
   background-color: #d63031;
 }
-
+/*
+The buttons were quite fun to play with, I got to see what worked and what didn't.
+I had also added style attributes such as changing colour and font so they fit
+into the design of the website
+*/
 #johnposter{
   max-width: 50%;
    float: left;
@@ -70,26 +94,34 @@ body{
   float: left;
   padding: 5px;
 }
-
+/*
+Floating elements was quite difficult for me to understand but after some time
+of experimentation, I finally figured it out
+*/
 a{
   color: white;
 }
-
+/*
+I didn't like the fact that "a" elements had the purple colour to them therefore
+I had changed the colour for all "a" elements to be white, which suits the
+website much more
+*/
 #s1::after{
   content: "";
   display: block;
   clear: both;
-
-
 }
 
 #s1{
   background-color: #333;
   border: 5px #d63031 solid;
   margin-top: 10px;
-
 }
-
+/*
+this section element contained float fixing attributes, that made the floated
+elements into a block. I had after customised those blocks with a background
+colour and a border.
+*/
 
 video {
   max-width: 100%;
@@ -97,7 +129,7 @@ video {
 }
 
 audio{
-  color: #343434;
+ background-color: #d63031;
 }
 
 footer{
@@ -107,7 +139,6 @@ footer{
   background-color:	#343434;
   color: white;
   border-top: 2px #d63031 solid;
-
 }
 
 #f1{
@@ -115,3 +146,10 @@ footer{
   flex-direction: column;
   padding: 4px;
 }
+/*
+Making the footer was a lot of time, I had tried different methods, but I ended
+up using a simple one, yet it looks semi-professional. I had separated the footer
+into 3 different parts. and I used the same id for all three of them which was
+"f1" I Had also added some style to the actual footer so it matches the design
+of the website.
+*/
