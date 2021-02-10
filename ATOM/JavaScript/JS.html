@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="CSS/style.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+  <body>
+    <a id="trumpLink" href=" https://www.washingtonpost.com/graphics/politics/trump-claims/">
+    <img src="image/trump.png" alt="Tramp">
+  </a>
+<p id="timeLeftDisplay"> 30s </p>
+    <script>
+   moveTrump = () => {
+      let trump = document.getElementById("trumpLink");
+
+      let horizontalPosition = Math.random() * (window.innerWidth - 100);
+      let verticalPosition = Math.random() * (window.innerHeight - 100);
+
+    trump.style.tramsform =
+     "translate(" + horizontalPosition + "px, " + verticalPosition +"px)";
+    };
+
+    updateTime = () =>{
+      console.log("itWORKS");
+      timeleft--;
+      console.log(timeLeft);
+      document.getElementById()
+    }
+
+    moveTrump();
+    setInterval(moveTrump, 500);
+      </script>
+  </body>
+</html>
